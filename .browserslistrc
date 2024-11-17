@@ -1,0 +1,5 @@
+[production]
+defaults, > 1%, not dead
+
+[ssr]
+last 2 node versions

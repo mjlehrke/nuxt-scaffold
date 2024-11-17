@@ -1,0 +1,12 @@
+// Global SCSS variables made available to every Vue file
+
+@use 'colors' as *;
+
+// Fonts
+$font-size-base: 1.6rem;
+$text-color: $color-light-grey;
+$highlight-color: $brand-color;
+$h1-color: $brand-color;
+
+// Backgrounds
+$bg-color: $color-grey;

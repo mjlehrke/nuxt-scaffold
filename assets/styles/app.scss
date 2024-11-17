@@ -1,0 +1,35 @@
+// App-wide styles imported into the main App.vue file
+
+@use 'sass:meta';
+@use 'globals/globals';
+@include meta.load-css('fonts');
+
+html {
+  font-size: 62.5%;
+  height: 100vh;
+}
+
+body {
+  background-color: globals.$bg-color;
+  color: globals.$text-color;
+  font-family: sans-serif;
+  font-size: globals.$font-size-base;
+  height: 100%;
+  /* stylelint-disable-next-line value-keyword-case */
+  text-rendering: optimizeLegibility;
+}
+
+a {
+  color: globals.$text-color;
+
+  &:focus,
+  &:hover {
+    color: globals.$highlight-color;
+    text-decoration: none;
+  }
+}
+
+h1 {
+  color: globals.$h1-color;
+  font-size: 5rem;
+}

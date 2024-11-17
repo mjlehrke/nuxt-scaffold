@@ -1,0 +1,5 @@
+// Global partials imported into every Vue file by Vite
+
+@forward 'colors';
+@forward 'mixins';
+@forward 'variables';
