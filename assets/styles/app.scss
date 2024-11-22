@@ -2,6 +2,7 @@
 
 @use 'sass:meta';
 @use 'globals/globals';
+@include meta.load-css('~/node_modules/modern-normalize/modern-normalize.css');
 @include meta.load-css('fonts');
 
 html {
